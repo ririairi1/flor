@@ -1,0 +1,309 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 40px;
+}
+
+.name{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.headerlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerlist > li {
+    padding: 10px 120px;
+}
+
+.headerlist > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    display        : inline-block;
+  letter-spacing : 4px;                /* 文字間 */
+  text-shadow    : 
+       2px  2px 1px rgb(156,156,156),
+      -2px  2px 1px rgb(156,156,156),
+       2px -2px 1px rgb(156,156,156),
+      -2px -2px 1px rgb(156,156,156),
+       2px  0px 1px rgb(156,156,156),
+       0px  2px 1px rgb(156,156,156),
+      -2px  0px 1px rgb(156,156,156),
+       0px -2px 1px rgb(156,156,156);        /* 文字の影 */
+}
+
+
+
+/* ------------------------------------------------ */
+
+.logo{
+    height: 36px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav > li > a{
+    color: crimson;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------ */
+
+
+
+/* ------------------------------------------------ */
+
+.top{
+    background-color: white;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img{
+    height: 70vh;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.carousel-inner{
+    height: 50vh;
+}
+
+/* ------------------------------------------------ */
+
+.about > h1{
+    font-size: 50px;
+    color: lightpink;
+    text-align: center;
+    padding-top: 10%;
+
+}
+
+.about > h2{
+    font-size: 25px;
+    color: rgb(156, 156, 156);
+    text-align: center;
+    padding-top: 1%;
+}
+
+.about{
+    background-color:white;
+    height: 60vh;
+    width: 100vw;
+    background-image: url(../img/フレーム.jpg);
+    background-size: 54vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+/* ------------------------------------------------ */
+
+.item{
+    color: lightpink;
+    text-align: center;
+    font-size: 70px;
+    /* font-weight: bold; */
+    background-color: white;
+    padding-top: 80px;
+}
+
+.flower{
+    background-color: white;
+    font-size: 10px;
+    padding-top: 50px;
+}
+
+.item-container{
+    background-color: white;
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    margin: 0 auto;
+}
+
+.image{
+    height: 30vh;
+}
+
+.money{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h5{
+    background-color: white;
+    font-size: 15px;
+    color: black;
+}
+
+.botton{
+    height: 25px;
+    width: 100px;
+}
+
+/* ------------------------------------------------ */
+
+#card > h4{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: lightpink;
+}
+
+#transport > h4{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: lightpink;
+}
+
+.contents{
+    width: 100%;
+    margin: 0 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.img4{
+    height: 230px;
+
+}
+
+.description{
+    width: 50%;
+    padding: 10px;
+}
+
+/* ------------------------------------------------ */
+
+.contact{
+    font-size: 70px;
+    color: lightpink;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.contact > h3{
+    font-size: 40px;
+}
+
+.pin{
+    height: 50px;
+}
+
+/* ------------------------------------------------ */
+
+.order{
+    background-color: white;
+    width: 100vw;
+    height: 30vh;
+}
+
+.contact-container{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------------------------ */
+
+.order-container{
+    background-color: white;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.left{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 20%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(156,156,156);
+}
+
+.list{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    color: rgb(156,156,156);
+}
+
+/* ------------------------------------------------ */
+
+.footer{
+    font-size: 20px;
+    color: white;
+    background-color: lightcoral;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* ------------------------------------------------ */
+
+
+
+
+
