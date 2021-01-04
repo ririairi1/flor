@@ -117,7 +117,7 @@ header{
 }
 
 .about{
-    background-color:white;
+    background-color: white;
     height: 60vh;
     width: 100vw;
     background-image: url(../img/フレーム.jpg);
@@ -226,7 +226,7 @@ header{
 
 .contact{
     font-size: 70px;
-    color: lightpink;
+    color: white;
     text-align: center;
     padding-top: 120px;
 }
